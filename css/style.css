@@ -486,7 +486,7 @@ h6,
 
 .project-item:hover img,
 .project-carousel .owl-item.center img {
-    margin-top: -60px;
+    /* margin-top: -60px; */
 }
 
 .project-item .project-title {
@@ -698,4 +698,20 @@ h6,
 .copyright {
     color: #B0B9AE;
     border-top: 1px solid rgba(255, 255, 255, .1);
+}
+.grid-display {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.whatsappFab {
+    position: fixed;
+    bottom: 27px;
+    height: 53px;
+    left: 10px;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
