@@ -704,6 +704,16 @@ h6,
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+.grid-displayx3 {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+@media (max-width: 600px) {
+    .grid-displayx3 {
+        grid-template-columns: 1fr; /* Change to one column for screens smaller than 600px */
+    }
+}
 .whatsappFab {
     position: fixed;
     bottom: 27px;
@@ -714,4 +724,8 @@ h6,
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.bg-black{
+    background: #000000;
 }
